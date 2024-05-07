@@ -1,0 +1,46 @@
+/* ESTILO DE SOBRE */
+
+.sobre .img-sobre img{
+    border-radius: 25px;
+}
+
+section.sobre{
+    padding: 120px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: var(--cor_letras_geral);
+}
+
+.sobre .txt-sobre h2{
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: var(--cor_letras_especificas);
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.btn-social button{
+    width: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border: 0;
+    background-color: var(--cor_letras_especificas);
+    font-size: 40px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}

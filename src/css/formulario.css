@@ -1,0 +1,47 @@
+/* ESTILO DO FORMULARIO */
+
+section.formulario{
+    padding: 120px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: var(--cor_textarea);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: var(--cor_letras_geral);
+    font-size: 18px;
+}
+
+form input::placeholder, form textarea::placeholder{
+    color: var(--cor_letras_especificas);
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: var(--cor_letras_especificas);
+    color: var(--cor_fundo);
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}

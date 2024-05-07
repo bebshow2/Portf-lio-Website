@@ -1,0 +1,32 @@
+/* ESTILO DAS EXPERIENCIAS */
+
+section.experiencias{
+    padding: 120px 4%;
+}
+
+section.experiencias .flex{
+    gap: 60px;
+}
+
+.experiencias .experiencias-box{
+    color: var(--cor_letras_geral);
+    padding: 40px;
+    border-radius: 25px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.experiencias .experiencias-box:hover{
+    transform: scale(1.10);
+    box-shadow: 0 0 8px #ffffff62;
+}
+
+.experiencias .experiencias-box i{
+    font-size: 80px;
+    color: var(--cor_letras_especificas);
+}
+
+.experiencias .experiencias-box h3{
+    font-size: 30px;
+    margin: 15px 0;
+}
